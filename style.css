@@ -30,7 +30,6 @@ body{
 }
 .site-header h3{
   margin:0 0 6px;
-  font-weight:300;
   letter-spacing:0.2px;
   color:var(--brand);
 }
@@ -180,3 +179,4 @@ input:focus, select:focus{border-color:var(--brand);box-shadow:0 0 0 3px rgba(6,
 .btn-close:hover {
   background: #099c14;
 }
+
