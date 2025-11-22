@@ -17,7 +17,7 @@ const db = firebase.database();
 // -----------------------------------------
 
 (function () {
-    const CAPACITY = 10;
+    const CAPACITY = 13;
 
     const DEFAULT_SHIFTS = [
         { "id": "shift-1", "label": "17 de Janeiro de 2026 - 21 Março 2026" },
@@ -159,4 +159,5 @@ const db = firebase.database();
 function closeSuccessModal() {
     document.getElementById("successModal")
         .setAttribute("aria-hidden", "true");
+
 }
